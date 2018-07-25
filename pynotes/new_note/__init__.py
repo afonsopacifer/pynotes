@@ -1,19 +1,10 @@
 import os
+from .write_md_file import write_md_file
 
-def new_note(file_name):
+def new_note(md_file_name, helpers):
 
-    md_file_name = str(file_name) + '.md'
-    md_file = open(md_file_name, 'w+')
-
-    md_file.write('# Notes: ' + str(file_name) + '\n\n')
-    md_file.write('> Tags: \n\n')
-    md_file.write('## Links: \n\n')
-
-    md_file.close()
-
-    print('A new note file called ' + str(file_name) + '.md was created successfully in ' + os.getcwd())
-    return md_file
-
-    #todo:
-    #subscribe msg
-    #erro msg
+    if helpers.file_exist(md_file_name):
+        print(helpers.colors.warning('The file ' + md_file_name + ' already exist in '  + os.getcwd()))
+    else:
+        write_md_file(md_file_name)
+        print(helpers.colors.success('A new note file called ' + md_file_name + ' was successfully created in ' + os.getcwd()))

@@ -1,6 +1,7 @@
 # Bytecodes
 /pynotes/__pycache__
 /**/__pycache__
+.idea
 
 # Compiled python modules.
 *.pyc
@@ -13,3 +14,6 @@
 
 # editor
 .vscode/
+
+# osx files
+.DS_Store
