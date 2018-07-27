@@ -1,13 +1,18 @@
 # pynotes
 
+
+[![PyPI](https://img.shields.io/pypi/v/pynotes.svg)](https://pypi.org/project/pynotes/)
+
+
 > Create daily notes/log with markdown.
+
 
 ## How to install
 
 Verify if you have [python 3.x](https://www.python.org/downloads/) and [pip](https://pypi.org/project/pip/) installed.
 
 ```sh
-$ python -m pip install pynotes
+$ python3 -m pip install pynotes
 ```
 
 <hr>
@@ -46,6 +51,44 @@ Short argument | Argument      | Description  |
 - [Link 1](#url1)
 - [Link 2](#url2)
 - [Link 3](#url3)
+```
+
+## Development
+
+### Dev environment
+
+1 - Install the [virtualenv](https://virtualenv.pypa.io/en/stable/)
+
+```
+$ pip install virtualenv
+```
+
+2 - Create new python environment
+
+```
+$ sh setup_env.py
+```
+
+3 - Start the environment
+
+```
+$ source bin/activate
+```
+
+**TIP:** Type `deactivate` to close the virtualenv
+
+### Publish
+
+Install locally with pip
+
+```
+$ sh publish_local.sh
+```
+
+Publish in PyPi
+
+```
+$ sh publish_pypi.sh
 ```
 
 ## Versioning

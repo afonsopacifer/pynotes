@@ -3,6 +3,14 @@
 /**/__pycache__
 .idea
 
+# virtualenv files
+bin/
+include/
+lib/
+
+# pip
+pip-selfcheck.json
+
 # Compiled python modules.
 *.pyc
 
