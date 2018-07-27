@@ -66,7 +66,7 @@ $ pip install virtualenv
 2 - Create new python environment
 
 ```
-$ sh setup_env.py
+$ sh setup_env.sh
 ```
 
 3 - Start the environment

@@ -2,6 +2,7 @@
 /pynotes/__pycache__
 /**/__pycache__
 .idea
+.Python
 
 # virtualenv files
 bin/
