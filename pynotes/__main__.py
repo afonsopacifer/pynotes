@@ -5,6 +5,7 @@ from .add_link import add_link
 from .add_tag import add_tag
 from .helpers import helpers
 from .read import read
+from .links import links
 
 def main():
 
@@ -33,7 +34,7 @@ def main():
     elif args.read: read(md_file_name, helpers)
 
     # -l, --links
-    elif args.links: pass
+    elif args.links: links(md_file_name, helpers)
 
     # -t, --tags
     elif args.tags: pass
