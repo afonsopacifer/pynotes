@@ -7,7 +7,7 @@
 Verify if you have [python 3.x](https://www.python.org/downloads/) and [pip](https://pypi.org/project/pip/) installed.
 
 ```sh
-$ pip install pynotes
+$ python -m pip install pynotes
 ```
 
 <hr>
