@@ -6,6 +6,7 @@ from .add_tag import add_tag
 from .helpers import helpers
 from .read import read
 from .links import links
+from .tags import tags
 
 def main():
 
@@ -37,7 +38,7 @@ def main():
     elif args.links: links(md_file_name, helpers)
 
     # -t, --tags
-    elif args.tags: pass
+    elif args.tags: tags(md_file_name, helpers)
 
 if __name__ == '__main__':
     main()
