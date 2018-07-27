@@ -4,6 +4,7 @@ from .new_note import new_note
 from .add_link import add_link
 from .add_tag import add_tag
 from .helpers import helpers
+from .read import read
 
 def main():
 
@@ -29,7 +30,7 @@ def main():
     elif args.add_tag: add_tag(md_file_name, helpers)
 
     # -r, --read
-    elif args.read: pass
+    elif args.read: read(md_file_name, helpers)
 
     # -l, --links
     elif args.links: pass

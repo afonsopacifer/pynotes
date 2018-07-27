@@ -1,4 +1,3 @@
-import copy
 from .format_tag import format_tag
 from .get_all_lines import get_all_lines
 from .update_tag_line import update_tag_line
