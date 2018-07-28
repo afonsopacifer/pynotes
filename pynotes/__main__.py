@@ -40,5 +40,11 @@ def main():
     # -t, --tags
     elif args.tags: tags(md_file_name, helpers)
 
+    # default
+    else:
+        print('\033[95m' + 'Welcome to pynotes')
+        print('\033[94m' + 'A tool for create daily notes/log with markdown.')
+        print('See all commands: ' + '\033[95m' + 'pynotes -h ')
+
 if __name__ == '__main__':
     main()

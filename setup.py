@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(name='pynotes',
-      version='0.1.1',
+      version='0.1.2',
       description='Create daily notes/log with markdown.',
       long_description='Create daily notes/log with markdown.',
       url='http://github.com/afonsopacifer/pynotes',
